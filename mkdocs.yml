@@ -66,8 +66,10 @@ nav:
     - workspace/infrastructure_workflow.md
     - workspace/set_up_environment.md
     - workspace/copying_large_data.md
+    - workspace/running_commands_in_background.md
   - iAID: 
     - iAID/data.md
+
   # - Blog:
   #     - blog/index.md
 
