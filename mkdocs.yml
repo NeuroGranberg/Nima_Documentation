@@ -60,11 +60,14 @@ theme:
 
 # Navigation Structure
 nav:
-  - What is this: index.md
-  - Settings:
-    - settings/credential.md
+  - Home: index.md
+  - Workspace:
+    - workspace/index.md
+    - workspace/infrastructure_workflow.md
+    - workspace/set_up_environment.md
+    - workspace/copying_large_data.md
   - iAID: 
-    - iAID/chek_up.md
+    - iAID/data.md
   # - Blog:
   #     - blog/index.md
 
