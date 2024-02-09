@@ -74,6 +74,7 @@ nav:
     - workspace/visualization.md
     - workspace/copying_large_data.md
     - workspace/running_commands_in_background.md
+    - workspace/parallelization.md
   - iAID: 
     - iAID/data.md
 
