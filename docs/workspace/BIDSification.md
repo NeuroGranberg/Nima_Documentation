@@ -50,7 +50,8 @@ Determining whether a DICOM (Digital Imaging and Communications in Medicine) fil
   - **Example**: `sub-01_ses-01_task-name_events.tsv` contains event timings and types for a specific task.
 
 !!! INFO  "Identifying Data Type from DICOM Files"
-To determine the type of data a DICOM file represents before it's converted to a BIDS-compatible format like NIfTI (`nii` or `nii.gz`), you would need to inspect the DICOM metadata for information about the scanning sequence, parameters, and purpose of the scan. DICOM viewers and tools like `dcm2niix` can facilitate this inspection by extracting relevant metadata and aiding in the conversion to BIDS format while preserving critical information that dictates how the data should be classified and named according to BIDS standards.
+
+    To determine the type of data a DICOM file represents before it's converted to a BIDS-compatible format like NIfTI (`nii` or `nii.gz`), you would need to inspect the DICOM metadata for information about the scanning sequence, parameters, and purpose of the scan. DICOM viewers and tools like `dcm2niix` can facilitate this inspection by extracting relevant metadata and aiding in the conversion to BIDS format while preserving critical information that dictates how the data should be classified and named according to BIDS standards.
 
 ## Additional Files
 - **`participants.tsv`**: A table with one row for each subject and columns for different participant characteristics (e.g., age, gender).
