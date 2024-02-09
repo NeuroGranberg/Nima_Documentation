@@ -46,7 +46,7 @@ theme:
     - content.action.view
     # - content.tabs.link
     # - header.autohide
-    # - navigation.expand
+    - navigation.expand
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
@@ -65,6 +65,13 @@ nav:
     - workspace/index.md
     - workspace/infrastructure_workflow.md
     - workspace/set_up_environment.md
+    - workspace/BIDSification.md
+    - workspace/comperhensive_tools.md
+    - workspace/conversion_tools.md
+    - workspace/containers.md
+    - workspace/BIDS_datasets.md
+    - workspace/BIDS_analysis.md
+    - workspace/visualization.md
     - workspace/copying_large_data.md
     - workspace/running_commands_in_background.md
   - iAID: 
@@ -88,6 +95,7 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 
 markdown_extensions:
+  - pymdownx.keys
   - admonition
   - abbr
   - attr_list
@@ -112,12 +120,13 @@ markdown_extensions:
       toc_depth: 3
 
 extra_javascript:
-  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/custom.js
 
 extra_css:
   - stylesheets/extra.css
+
   
 # Build Settings
 use_directory_urls: true
