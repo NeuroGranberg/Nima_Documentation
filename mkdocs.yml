@@ -75,6 +75,8 @@ nav:
     - workspace/copying_large_data.md
     - workspace/running_commands_in_background.md
     - workspace/parallelization.md
+    - workspace/download_large_data.md
+    - workspace/fixing_corrupted_archives.md
   - iAID: 
     - iAID/data.md
 

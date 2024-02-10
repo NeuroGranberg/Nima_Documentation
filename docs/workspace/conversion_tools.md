@@ -4,9 +4,9 @@
 
  <kbd>**CLI**</kbd>
 
-In my exploration of tools for BIDSification, I also came across [**dcm2niix**](https://github.com/neurolabusc/dcm2niix), which is a crucial piece of software written in C++. It is designed to convert DICOM and PAR/REC files into the NIfTI format, a key step in preparing data for BIDS compliance. It's specifically engineered to handle brain imaging data conversions with minimal fuss, making it a favorite among researchers and clinicians alike. The software automatically generates JSON sidecar files for each NIfTI file it creates, which include important metadata necessary for BIDS datasets.
+In my exploration of tools for BIDSification, I came across [**dcm2niix**](https://github.com/neurolabusc/dcm2niix), which is a crucial piece of software written in C++. It is designed to convert DICOM and PAR/REC files into the NIfTI format, a key step in preparing data for BIDS compliance. It's specifically engineered to handle brain imaging data conversions with minimal fuss, making it a favorite among researchers and clinicians alike. The software automatically generates JSON sidecar files for each NIfTI file it creates, which include important metadata necessary for BIDS datasets.
 
-Among all, [**dcm2niix**](https://github.com/neurolabusc/dcm2niix) stands out for its efficiency in converting DICOM and PAR/REC files into NIfTI format, a crucial step for BIDS compliance. Its speed, ease of use, and broad compatibility make it a preferred choice when it comes to big data.
+Among all, [**dcm2niix**](https://github.com/neurolabusc/dcm2niix) stands out for its efficiency in converting DICOM and PAR/REC files into NIfTI format. Its speed, ease of use, and broad compatibility make it a preferred choice when it comes to big data.
 
 ## [BIDS-converter](https://github.com/openneuropet/BIDS-converter)
 
@@ -18,7 +18,7 @@ BIDS-converter facilitates the conversion of PET images from DICOM and ECAT form
 
  <kbd>**Python**</kbd>
 
-Both [**Heudiconv**](https://heudiconv.readthedocs.io/en/latest/) is tailored for converting DICOM files to the NIFTI format within a BIDS structure. Its tools are especially useful at the initial stages of BIDSification, facilitating the conversion of raw imaging data into a structured, standardized format.
+Heudiconv is tailored for converting DICOM files to the NIFTI format within a BIDS structure. Its tools are especially useful at the initial stages of BIDSification, facilitating the conversion of raw imaging data into a structured, standardized format.
 
 ## [nipype](https://github.com/nipy/nipype)
 
