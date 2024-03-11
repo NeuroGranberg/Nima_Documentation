@@ -293,5 +293,5 @@ Open Errors: 1
 Sub items Errors: 1
 ```
 
-Given the situation, discarding the CDR proved to be a viable path forward. By ignoring the central directory, I focused on extracting files based on their local headers, which contain essential metadata for extraction and it worked almost perfectly.
+Given the situation, discarding the CDR proved to be a viable path forward. By ignoring the central directory, I focused on extracting files based on their local headers, which contain essential metadata for extraction and it worked almost perfectly. Then, the fixed zip files were extracted as normal.
 

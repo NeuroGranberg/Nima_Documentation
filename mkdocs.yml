@@ -79,6 +79,7 @@ nav:
     - workspace/fixing_corrupted_archives.md
   - iAID: 
     - iAID/data.md
+    - iAID/BIDSification.md
 
   # - Blog:
   #     - blog/index.md
