@@ -59,7 +59,7 @@ services:
 - **Image:** Specifies the Docker image to use. Here, it's using `nimach/neurog-full-img:1.0`, which should be the image built from the Dockerfile or a similar pre-built image.
 - **Container Name:** Sets a custom name for your container.
 - **Environment:** Configures the container to use all NVIDIA GPUs with full driver capabilities.
-- **Ports:** Maps port 8899 on the host to port 8888 inside the container, typically used for Jupyter Notebook/Lab servers.
+- **Ports:** Maps port xxxx on the host to port 8888 inside the container, typically used for Jupyter Notebook/Lab servers.
 - **Volumes:** Mounts directories from the host inside the container for data persistence and access to datasets. You can adjust `/home/USERNAME` line to mount your home directory address as needed.
 - **Restart Policy:** Configures the container to restart automatically unless manually stopped.
 - **GPU Reservation:** Explicitly reserves NVIDIA GPUs for the container, specifying which GPUs to use (`device_ids`) and their capabilities.
