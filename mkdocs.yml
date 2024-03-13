@@ -80,7 +80,10 @@ nav:
   - iAID: 
     - iAID/data.md
     - iAID/BIDSification.md
-
+  - NeuroG Container: 
+    - NeuroG Container/motivation.md
+    - NeuroG Container/build.md
+    - NeuroG Container/how_to_use.md
   # - Blog:
   #     - blog/index.md
 
