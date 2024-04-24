@@ -84,6 +84,12 @@ nav:
     - NeuroG Container/motivation.md
     - NeuroG Container/build.md
     - NeuroG Container/how_to_use.md
+  - Dicom Extractor:
+    - Dicom Extractor/dicom_metadata_extraction_tool.md
+    - Dicom Extractor/Usage.md
+  - Dicom Reorganizer:
+    - Dicom Reorganizer/index.md
+    - Dicom Reorganizer/python_package.md
   # - Blog:
   #     - blog/index.md
 
