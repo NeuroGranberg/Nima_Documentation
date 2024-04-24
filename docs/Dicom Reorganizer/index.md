@@ -4,7 +4,7 @@
 
 The provided code is a Rust library that is designed to work with Python using the `pyo3` crate, which allows Rust code to be called from Python. The purpose of this code is to reorganize DICOM files based on information provided in a CSV file.
 
-**Requirements:** [[Source]]()
+**Requirements:** [[Source]](https://github.com/NeuroGranberg/dicom_reorganizer/blob/ee470fe40bc3c59bcce9b9cca48afcf73b334370/src/lib.rs#L1C1-L7C20)
 
 1. The code requires the following Rust crates:
     - `pyo3`: Enables integration with Python.
