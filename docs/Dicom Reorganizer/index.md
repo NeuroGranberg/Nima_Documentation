@@ -31,9 +31,9 @@ The provided code is a Rust library that is designed to work with Python using t
 
 !!!info Creating csv of your dicom data
 
-    I build a tool to extract all tags (alongside path) of every disom in a given dataset that can be used to build the needed csv file for this step. You can find more information if you look at [Dicom Metadata Extractor](https://neurogranberg.github.io/Nima_Documentation/Dicom Extractor/Usage/)
+    I build a tool to extract all tags (alongside path) of every disom in a given dataset that can be used to build the needed csv file for this step. You can find more information if you look at [Dicom Metadata Extractor](https://neurogranberg.github.io/Nima_Documentation/Dicom%20Extractor/Usage/)
 
-**Functionality:** [[Source]]()
+**Functionality:** [[Source]](https://github.com/NeuroGranberg/dicom_reorganizer/blob/fe6f2164c39ee490a68cdec89d416673491a18cd/src/lib.rs#L9C1-L42C2)
 
 The code defines a Python function `reorganize_dicoms` that takes the following arguments:
 
@@ -97,7 +97,7 @@ The function performs the following steps:
     - Determines whether to copy or move the file based on the `copy_files` flag.
     - Copies or moves the DICOM file to the new path, preserving the original file name.
 
-**Integration with Python:**  [[Source]]()
+**Integration with Python:**  [[Source]](https://github.com/NeuroGranberg/dicom_reorganizer/blob/fe6f2164c39ee490a68cdec89d416673491a18cd/src/lib.rs#L44C1-L48C2)
 
 The `#[pymodule]` section defines a Rust module named `dicom_reorganizer` that can be imported and used in Python. It adds the `reorganize_dicoms` function to the module, allowing it to be called from Python.
 
