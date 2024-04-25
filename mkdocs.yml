@@ -90,6 +90,9 @@ nav:
   - Dicom Reorganizer:
     - Dicom Reorganizer/index.md
     - Dicom Reorganizer/python_package.md
+  - Orthanc Server:
+    - Orthanc Server/build.md
+    - Orthanc Server/usage.md
   # - Blog:
   #     - blog/index.md
 
