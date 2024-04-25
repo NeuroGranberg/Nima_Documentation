@@ -35,8 +35,7 @@ The code is designed to extract metadata from DICOM files (a standard medical im
 
 * `concurrent.futures`: Provides tools for running tasks concurrently using threads or processes.
 * `tqdm`: Displays progress bars during operations.
-* `polars`: A dataframe library, likely used to create the final CSV output.
-* `pandas`: Core data analysis library (used for intermediate data manipulation).
+* `polars` and `pandas`: Core data analysis libraries.
 * `uuid`: Generates unique identifiers.
 * `os`: For file system interactions.
 * `sys`: Access to system-level functions.
