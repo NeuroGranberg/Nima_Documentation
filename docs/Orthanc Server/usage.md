@@ -1,15 +1,18 @@
 ## How to Use
 
 1. **Prerequisites:**
-   * Docker engine installed ([https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/))
-   * Docker Compose installed ([https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/))
+   
+     * Docker engine installed ([https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/))
+     * Docker Compose installed ([https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/))
 
-2. **Environment Variables:**
-   * Create a `.env` file in the project directory. 
-   * Define the required environment variables (example provided below).
+3. **Environment Variables:**
+     
+     * Create a `.env` file in the project directory. 
+     * Define the required environment variables (example provided below).
 
-3. **Run:**
-   * From the project directory, execute: `docker-compose up -d`
+5. **Run:**
+   
+     * From the project directory, execute: `docker-compose up -d`
 
 ## Environment Variables
 
